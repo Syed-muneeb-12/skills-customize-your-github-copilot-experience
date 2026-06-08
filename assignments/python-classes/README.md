@@ -2,32 +2,46 @@
 
 ## 🎯 Objective
 
-Learn how to define and use classes in Python to model real-world objects and behaviors.
+Learn how to define and use classes in Python to model real-world objects and behaviors, including attributes and methods for interaction.
 
 ## 📝 Tasks
 
-### 🛠️ Define a Simple Class
+### 🛠️	Define a Simple Class
 
 #### Description
-Create a class named `Car` that represents a car with attributes for make, model, and year. Add a method to display information about the car.
+Create a `Car` class with basic attributes and a method to return the car's information.
 
 #### Requirements
 Completed program should:
 
-- Define a class `Car` with `make`, `model`, and `year` attributes
-- Include a method `display_info()` that prints the car's details
-- Create an instance of `Car` and call `display_info()`
+- Define a class `Car` with `make`, `model`, and `year` attributes initialized in `__init__`.
+- Implement a method `display_info()` that returns a string describing the car (do not print inside the method).
+- Demonstrate creating an instance of `Car` and calling `display_info()` in example usage.
 
+Example usage:
 
-### 🛠️ Add Methods and Interactions
+```python
+car = Car('Toyota', 'Corolla', 2020)
+print(car.display_info())
+# Example output: Toyota Corolla (2020)
+```
+
+### 🛠️	Add Methods and Interactions
 
 #### Description
-Expand the `Car` class to include a method to update the car's mileage and another to display the current mileage.
+Extend the `Car` class to track mileage and allow updates.
 
 #### Requirements
 Completed program should:
 
-- Add a `mileage` attribute to the `Car` class (default 0)
-- Add a method `update_mileage(new_mileage)` to update the mileage
-- Add a method `display_mileage()` to print the current mileage
-- Demonstrate updating and displaying mileage for a `Car` instance
+- Add a `mileage` attribute to `Car` with default value `0`.
+- Implement `update_mileage(new_mileage)` that updates the mileage only if `new_mileage` is greater than the current mileage.
+- Implement `display_mileage()` that returns the current mileage as an integer or formatted string.
+- Demonstrate updating and displaying mileage in example usage.
+
+Example usage:
+
+```python
+car.update_mileage(15000)
+print(car.display_mileage())  # 15000
+```

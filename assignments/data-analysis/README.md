@@ -2,31 +2,50 @@
 
 ## 🎯 Objective
 
-Students will learn the basics of data analysis using Python. They will load, explore, and analyze a dataset to extract meaningful insights.
+Learn basic data analysis with Python: load a CSV, explore its structure, compute summary statistics, and create visualizations to surface insights.
 
 ## 📝 Tasks
 
-### 🛠️ Data Loading and Exploration
+### 🛠️	Data Loading and Exploration
 
 #### Description
-Load a provided CSV dataset and perform basic exploration to understand its structure and contents.
+Load the provided CSV dataset and perform exploratory data analysis to understand the table structure and numeric distributions.
 
 #### Requirements
-Completed program should:
+Completed work should:
 
-- Load a CSV file using Python (e.g., with pandas)
-- Display the first 5 rows of the dataset
-- Show summary statistics (mean, median, etc.) for numeric columns
+- Implement a script or functions that load `data.csv` (use `pandas` or the `csv` module).
+- Display the first 5 rows of the dataset using a `head()`-style output.
+- Compute and show summary statistics for numeric columns (count, mean, median, std).
 
+Example (pseudocode):
 
-### 🛠️ Data Visualization and Insights
+```python
+import pandas as pd
+df = pd.read_csv('data.csv')
+print(df.head())
+print(df.describe())
+```
+
+### 🛠️	Data Visualization and Insights
 
 #### Description
-Create visualizations to help understand the data and summarize key findings.
+Create visualizations to illustrate distributions and relationships, and write a short summary of the most important findings.
 
 #### Requirements
-Completed program should:
+Completed work should:
 
-- Generate at least two different types of plots (e.g., histogram, scatter plot)
-- Identify and describe at least two insights or trends from the data
-- Save the plots as image files
+- Produce at least two different plot types (for example: histogram, scatter plot, boxplot) and save them as image files (PNG or JPG).
+- Include brief captions or a short report (2–4 sentences) describing at least two insights or trends discovered from the plots.
+- Ensure plots include axis labels and titles.
+
+Example (pseudocode):
+
+```python
+import matplotlib.pyplot as plt
+df['column'].hist()
+plt.title('Distribution of column')
+plt.xlabel('value')
+plt.ylabel('frequency')
+plt.savefig('histogram.png')
+```

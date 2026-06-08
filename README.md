@@ -1,12 +1,35 @@
-# Customize Your GitHub Copilot Experience
+# 📘 Assignment: Customize Your GitHub Copilot Experience
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+## 🎯 Objective
 
-Hey Syed-muneeb-12!
+Practice organizing and documenting an educational coding exercise by converting repository content into the project's standard assignment template. You'll learn how to structure objectives, tasks, and example usage so students can complete and test the assignment easily.
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+## 📝 Tasks
 
-Remember, it's self-paced so feel free to take a break! ☕️
+### 🛠️	Refactor README content into the assignment template
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/Syed-muneeb-12/skills-customize-your-github-copilot-experience/issues/1)
+#### Description
+Convert the existing repository README into a `README.md` that follows `templates/assignment-template.md` structure and language.
+
+#### Requirements
+
+- Replace the repository-style introduction with a concise objective (1–2 sentences).
+- Provide at least two clearly named tasks with descriptions and measurable requirements.
+- Include short example usage or expected output where applicable.
+
+### 🛠️	Preserve contextual notes and links
+
+#### Description
+Keep any useful links or acknowledgements from the original README (such as the exercise link), but move them into a short "Notes" subsection so the assignment remains focused.
+
+#### Requirements
+
+- Add a `Notes` section containing the original exercise link and any contributor acknowledgements.
+- Ensure the file uses plain markdown and matches the template formatting.
+
+## Notes
+
+- Original exercise link: https://github.com/Syed-muneeb-12/skills-customize-your-github-copilot-experience/issues/1
+- Attribution: Mona (original author of the repository introduction)
+
 
