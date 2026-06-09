@@ -32,14 +32,14 @@ pip install -r requirements.txt
 3. Run the app locally:
 
 ```bash
-uvicorn starter-code:app --reload
+uvicorn starter_code:app --reload
 ```
 
 Open `http://127.0.0.1:8000/docs` for the interactive Swagger UI.
 
 ## Tasks
 
-1. Explore the provided starter app in `starter-code.py` and run it.
+1. Explore the provided starter app in `starter_code.py` and run it.
 2. Extend the API with the following endpoints and features:
    - Create, Read (single + list), Update, Delete for a core resource (e.g., `Item`).
    - Input validation and response models using Pydantic.

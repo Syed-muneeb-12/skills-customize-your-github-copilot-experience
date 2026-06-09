@@ -69,4 +69,4 @@ def secure_action():
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("starter-code:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("starter_code:app", host="127.0.0.1", port=8000, reload=True)
