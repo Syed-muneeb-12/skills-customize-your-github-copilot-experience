@@ -82,6 +82,19 @@
           "type": "markdown"
         }
       ]
+    },
+    {
+      "id": "secure-fastapi",
+      "title": "Secure, Persistent REST APIs with FastAPI",
+      "description": "Build a production-style FastAPI service with SQLite persistence, token auth, tests, and Docker.",
+      "path": "assignments/secure-fastapi",
+      "dueDate": "2026-07-08",
+      "attachments": [
+        { "name": "Starter App", "file": "app.py", "type": "python" },
+        { "name": "Requirements", "file": "requirements.txt", "type": "text" },
+        { "name": "Dockerfile", "file": "Dockerfile", "type": "text" },
+        { "name": "Report", "file": "REPORT.md", "type": "markdown" }
+      ]
     }
   ]
 }
